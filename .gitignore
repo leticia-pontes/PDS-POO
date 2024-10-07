@@ -1,0 +1,80 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.* 
+*.log
+
+# Ignore Visual Studio Code workspace-specific settings
+.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+# NuGet Packages Directory
+packages/
+# Ignore package-lock.json (NPM) if you're using Node.js tools
+package-lock.json
+# If you have your packages directory in a different location than the default, uncomment the line below to ignore it
+# */packages/*
+
+# Ignore logs, debug & crash reports
+*.log
+*.tlog
+*.pdb
+*.cache
+*.ilk
+*.orig
+
+# Ignore Visual Studio cache files
+.vscode
+.vs
+
+# Ignore Rider project files
+.idea/
+.idea_modules/
+.idea/.idea/
+.idea/**
+
+# Ignore temp files
+*.tmp
+*.temp
+
+# Ignore Recycle Bin files
+$RECYCLE.BIN/
+
+# Ignore .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Ignore other system files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore coverage output
+coverage/
+
+# Ignore publish output
+.publish/
+
+# Ignore database files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore others
+**/TestResults/
+**/*.rsuser
+**/stylecop.cache
